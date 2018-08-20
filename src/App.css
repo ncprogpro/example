@@ -1,0 +1,162 @@
+
+
+body {
+  overflow: -webkit-paged-y;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+/* Header */
+
+.header-top {
+  background: url('./assets/img/header-top-bg.png') no-repeat;
+  background-size: cover;
+  padding: 5px 50px;
+}
+
+.header-top:before, .header-top:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.header-top span {
+  font-size: 20px;
+}
+
+.header-top img {
+  width: 25px;
+  margin-bottom: 7px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+  margin-top: -550px;
+}
+
+.person {
+  width: 105px;
+  margin-top: -595px;
+}
+
+.keyboard {
+  margin-top: 80px;
+  margin-left: -290px;
+}
+
+.menu-section img {
+  width: 50px;
+}
+
+.menu-section {
+  margin-top: -200px;
+}
+
+.navbar-nav {
+  margin: auto !important;
+}
+
+.navbar li {
+  border: solid 2px #d7e1da;
+  border-right: 0px;
+}
+
+.navbar li:last-child {
+  border-right: solid 2px #d7e1da;
+}
+
+.navbar ul li a {
+  color: black !important;
+  padding-right: 15px !important; 
+  padding-left: 15px !important; 
+}
+
+.search-div input {
+  border: 0px;
+}
+
+.search-div img {
+  width: 35px;
+}
+
+.search-div {
+  line-height: 50px;
+  text-align: left;
+}
+
+.navbar-toggler {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.search-div input {
+  width: 150px;
+}
+
+@media (max-width: 992px) {
+  .title {
+    width: 990px;
+    margin-left: calc(50% - 500px);
+  }
+}
+
+@media (max-width: 850px) {
+  .keyboard {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 105px;
+  }
+
+  .title {
+    margin-top: -360px;
+  }
+
+  .person {
+    margin-top: -375px;
+  }
+
+  .header-top {
+    text-align: center;
+  }
+
+  .header-top > div {
+    float: none;
+  }
+
+  .menu-section {
+    margin-top: -85px;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .navbar li {
+    border-bottom: 0px;
+    border-right: solid 2px #d7e1da;
+  }
+  
+  .navbar li:last-child {
+    border-bottom: solid 2px #d7e1da;
+  }
+
+  .search-div {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .home-div, .menu-div, .search-div {
+    width: 100% !important;
+  }
+}
